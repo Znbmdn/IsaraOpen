@@ -1,0 +1,68 @@
+---
+title: "Rapport Individuel pour le projet OPEN"
+author: "BELMADAN Zineb"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+Dans le cadre de nos études, nous avons eu l'opportunité de mettre en pratique nos connaissances à travers un projet concret. Ce projet, consiste en la création d'une application en ligne innovante. Notre objectif principal est de développer une application  interactive permettant aux utilisateurs de concevoir des recettes personnalisées en sélectionnant divers ingrédients, tout en fournissant des informations nutritionnelles détaillées sur les recettes générées et proposer plusieurs possibilités de choix.
+
+Le rapport présent suivera une structure similaire à celle d'un article scientifique, ce qui signifie que  les différentes étapes du projet seront abordées de manière organisée et détaillée. Ce choix de structure n'est pas un hasard ; il permet de présenter les idées de manière claire et logique, ce qui est essentiel pour comprendre l'ensemble du processus de création de l'application.
+
+La pertinence de ce choix réside dans le fait qu'un plan d'article scientifique offre une séquence logique, du contexte initial aux résultats obtenus. Chaque section a un rôle spécifique, ce qui rend la lecture compréhensible et facilite la communication de nos idées.
+
+## Méthodologie
+La méthodologie adoptée pour la conception et le développement de notre application en ligne repose sur une approche structurée visant à garantir une mise en œuvre efficace et répondre aux objectifs spécifiques du projet.
+
+Au début du projet, une première étape était nécessaire, était l'installation des logiciels nécessaires et un rappel sur les outils fondamentaux de programmation.Une fois le sujet choisi, un cahier des charges est élaboré documentant les exigences fonctionnelles et non fonctionnelles de l'application. 
+
+Pour le développement de l'application, le choix des outils et de technologies a été orienté vers les framework Shiny de RStudio.Les tests ont joué un rôle important dans la validation de chaque étape du projet.
+
+En parallèle, la gestion du projet est soutenue par l'utilisation d'un référentiel Git sur GitHub, cela a facilité la collaboration entre toute l'équipe ce qui a assuré une progression fluide du travail.
+
+## Conception et Développement de l'Application
+La phase de conception et de développement de notre application a impliqué la collaboration de deux groupes distincts, chacun jouant un rôle crucial dans la réalisation de notre vision. Un premier groupe, a été chargé de créer et de structurer la base de données fondamentale pour l'application . L'objectif principal était de rassembler des données essentielles, telles que le nom des recettes, les ingrédients, les instructions, le pays d'origine, le temps de préparation, ainsi que des informations nutritionnelles détaillées, y compris les estimations en kcal, protéines, glucides, lipides et fibres. Il a également pris en charge la rédaction du cahier des charges sur Rmarkdown, établissant ainsi les bases du projet, définissant les objectifs, les fonctionnalités, les outils, les packages, le calendrier, le design, l'interface utilisateur, ainsi que la liste des ingrédients et des pays.
+
+Le deuxième groupe, a assumé à son tour la responsabilité du développement du code de l'application. La tâche centrale tournait autour de la transformation les données structurées en une interface utilisateur interactive, permettant aux utilisateurs de calculer leur indice de masse corporelle (IMC), de recevoir des recommandations alimentaires et d'accéder à des recettes spécifiques. Ils ont mis en place des fonctionnalités avancées telles que le calcul de l'IMC, la génération de graphiques et le suivi des besoins nutritionnels quotidiens. Leur travail a contribué à concrétiser l'aspect pratique et fonctionnel de l'application. Cela a nécessité a mise en place de la structure fondamentale de l'application, en intégrant les fonctionnalités nécessaires à la génération de recettes personnalisées en fonction des préférences de l'utilisateur et pour garantir la pertinence des recettes générées, le groupe a veillé à une intégration harmonieuse avec la base de données établie par le premier groupe.
+
+## Résultats et Discussion
+
+À la fin de notre projet, l'organisation et la gestion des documents sur notre dépôt GitHub ont été  effectuées. Le répertoire principal comprend deux dossiers clés. Le premier contient l'application, avec la base de données rassemblant les recettes créées. À l'intérieur de ce dossier, vous trouverez deux fichiers distincts, le fichier "server" et le fichier "ui", qui sont essentiels au fonctionnement de l'application. Le second dossier renferme le cahier des charges, accompagné d'un fichier gitignore et d'un fichier Readme.Rmd, fournissant ainsi des informations utiles sur le projet.
+
+En ce qui concerne l'application elle-même, elle est composée de quatre onglets distincts, chacun apportant une valeur spécifique à l'expérience utilisateur. La première page est dédiée à la page d'accueil, offrant aux utilisateurs la possibilité de saisir des informations telles que le poids, l'âge, et d'autres données pertinentes pour calculer l'Indice de Masse Corporelle (IMC) et établir un profil nutritionnel.
+
+La deuxième page sert de plateforme pour le choix des recettes, offrant une interface intuitive avec divers filtres pour faciliter la recherche des recettes désirées. La troisième page présente des recommandations alimentaires personnalisées, complétant ainsi l'aspect pratique et informatif de l'application. Enfin, la quatrième page, intitulée "À propos", fournit une présentation globale de l'application, avec des informations sur les auteurs et des détails sur les calculs nutritionnels mis en œuvre.
+
+Ces résultats illustrent le résultat de notre collaboration et la réalisation de notre vision pour NutriPlaisirs.
+ 
+## Leçons Apprises
+Initialement avec une vision quelque peu ambiguë sur le module, j'ai découvert un terrain fertile pour le développement de compétences cruciales pour ma future carrière d'ingénieur. Cette expérience a ouvert des perspectives enrichissantes et a permis d'acquérir des compétences variées en numérique 
+
+Le projet a été l'occasion d'affiner mes compétences en programmation, en particulier dans le langage R et l'utilisation de Shiny pour créer des applications interactives. La capacité à traduire des idées en code fonctionnel a été un apprentissage pratique qui enrichira ma boîte à outils en tant qu'ingénieur.
+
+A travers des différentes étapes notamment le développement de l'interface utilisateur interactive avec Shiny,la transformation des données structurées en une interface utilisateur fonctionnelle, et la conception d'une application, j'ai approfondi ma compréhension des concepts fondamentaux du langage R, tels que la manipulation de données, la création de graphiques et la programmation.
+
+## Perspectives Futures et Recommandations
+Ce projet, bien que conçu comme un mini-projet académique, offre une base solide pour une expansion significative dans le contexte d'un projet réel. En envisageant son potentiel en tant qu'application complète, plusieurs axes d'amélioration peuvent être explorés pour le rendre plus robuste, fonctionnel et adapté aux besoins réels des utilisateurs.
+
+En envisageant une expansion, il serait pertinent d'ajouter de nouvelles recettes provenant de différentes cultures et régions, offrant ainsi une variété d'options culinaires. Cela pourrait également inclure la collecte de données plus approfondies sur les ingrédients, les valeurs nutritionnelles et les pratiques alimentaires spécifiques à chaque région. En diversifiant la base de données, l'application pourrait mieux répondre aux préférences et aux besoins alimentaires variés de ses utilisateurs, offrant une expérience plus complète et personnalisée.
+
+Avec cela l'intégration de fonctionnalités de personnalisation représente également  une opportunité significative pour améliorer l'expérience utilisateur. En permettant aux utilisateurs de personnaliser leurs profils, préférences alimentaires et objectifs nutritionnels, l'application peut devenir plus adaptative et centrée sur les besoins spécifiques de chaque individu. Cela pourrait stimuler l'engagement des utilisateurs en renforçant le lien entre l'application et leurs objectifs personnels en matière de santé et de bien-être.
+
+il pourrait être aussi envisageable de revisister la dispotion des élément et integrer des fonctionnalités de recherche ou de catégorisation.
+L'intégration de la carte interactive dans notre application n'a pas été réalisée. Cependant, l'idée initiale était de permettre aux utilisateurs de sélectionner un pays en appuyant sur un curseur sur la carte, déclenchant ainsi une fonction qui aurait généré des recettes spécifiques à ce pays. Bien que cette fonctionnalité n'ait pas pu être implémentée dans cette version, elle représente une avenue intéressante pour d'éventuelles améliorations futures, visant à offrir une expérience encore plus immersive et personnalisée aux utilisateurs.
+
+Dans une perspective plus lointaine, et pour accroître l'accessibilité de l'application, il peut être possible d'envisager une version mobile de l'application.Ce développement  nécessiterait une adaptation de l'interface utilisateur pour une expérience optimale sur des écrans plus petits, mais les avantages potentiels en termes d'accessibilité et de portabilité pourraient être significatifs.
+
+## Conclusion
+J'ai eu l'opportunité de fusionner mes connaissances en ingénierie avec des compétences en programmation. Au fil du projet, j'ai pu également développer des compétences qui vont au-delà du cadre académique.
+En tant qu'étudiant ingénieur, ce projet a constitué une transition pratique de la théorie à la pratique. Il m'a offert une occasion d'appliquer nos connaissances académiques à un problème concret, tout en développant des compétences techniques et interpersonnelles essentielles pour notre future carrière. j'ai également appris à travailler avec les outils spécifiques tels que R, RStudio, et Shiny, approfondissant ma compréhension des technologies liées à la science des données.
+
+La principale difficulté résidait dans le fait que le projet était entièrement à distance. L'absence d'interactions en face-à-face a parfois compliqué  la compréhension mutuelle des tâches assignées. Cependant, l'utilisation  des outils de collaboration en ligne et les espaces de travail partagés, a atténué ces défis et a permis une avancée fluide du projet.
+Dans l'ensemble, malgré ces défis, l'expérience a été positive, démontrant la capacité d'adaptation et la résilience de l'équipe face à des circonstances inhabituelles. Nous avons réussi à maintenir un niveau élevé d'engagement et de productivité, ce qui témoigne de notre capacité à surmonter les obstacles et à travailler efficacement dans un environnement entièrement virtuel.
+Je reconnaissais le besoin de développer mes compétences dans le domaine du numérique, considérant cela comme une opportunité de croissance personnelle et professionnelle. Mon objectif en choisissant ce module était clair : m'améliorer dans l'utilisation des logiciels, apprendre à naviguer dans le domaine numérique, et acquérir des compétences pratiques dans des domaines tels que la gestion de projet et le développement d'applications.
